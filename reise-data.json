@@ -1,0 +1,1202 @@
+{
+  "days": [
+    {
+      "day": 1,
+      "weekday": "Dienstag",
+      "date": "2026-07-07",
+      "overnight": "Kilkenny",
+      "coords": [
+        52.6541,
+        -7.2448
+      ],
+      "hotel": "Zuni Restaurant & Boutique Hotel – Parkplatz inbegriffen; Check-in laut Booking/Karo.",
+      "title": "Anreise Dublin → Kilkenny",
+      "segments": [
+        [
+          "Vormittag",
+          "Anreise Flughafen Dublin, Mietwagen holen bis ca. 11:00."
+        ],
+        [
+          "12–14 Uhr",
+          "Fahrt nach Kilkenny, ca. 1,5 h. Mittagessen und Check-in ab 14:00."
+        ],
+        [
+          "14–16 Uhr",
+          "Kilkenny Castle & Park, ca. 2–2,5 h, 5 Gehminuten vom Hotel."
+        ],
+        [
+          "Abend",
+          "Abendessen, Prime Time."
+        ]
+      ],
+      "sights": [
+        "Kilkenny Castle",
+        "Kilkenny"
+      ],
+      "wiki": [
+        {
+          "name": "Kilkenny Castle",
+          "url": "https://de.wikipedia.org/w/index.php?search=Kilkenny%20Castle"
+        },
+        {
+          "name": "Kilkenny",
+          "url": "https://de.wikipedia.org/w/index.php?search=Kilkenny"
+        }
+      ],
+      "hotel_price": 360.0
+    },
+    {
+      "day": 2,
+      "weekday": "Mittwoch",
+      "date": "2026-07-08",
+      "overnight": "Kilkenny",
+      "coords": [
+        52.6541,
+        -7.2448
+      ],
+      "hotel": "Kilkenny zweite Nacht.",
+      "title": "Kilkenny → Jerpoint Abbey → Waterford → Kilkenny",
+      "segments": [
+        [
+          "Morgen",
+          "Frühstück im Hotel, St. Canice’s Cathedral ca. 15 Gehminuten vom Hotel; früh starten."
+        ],
+        [
+          "Mittag",
+          "Jerpoint Abbey auf dem Weg nach Waterford, ca. 1 h Zeit."
+        ],
+        [
+          "Nachmittag",
+          "Waterford-Optionen: Reginald’s Tower, Medieval Museum/Church, Bishop’s Palace."
+        ],
+        [
+          "Abend",
+          "Abendessen, Prime Time."
+        ]
+      ],
+      "sights": [
+        "St Canice's Cathedral",
+        "Jerpoint Abbey",
+        "Reginald's Tower",
+        "Bishop's Palace, Waterford"
+      ],
+      "wiki": [
+        {
+          "name": "St Canice's Cathedral",
+          "url": "https://de.wikipedia.org/w/index.php?search=St%20Canice%27s%20Cathedral"
+        },
+        {
+          "name": "Jerpoint Abbey",
+          "url": "https://de.wikipedia.org/w/index.php?search=Jerpoint%20Abbey"
+        },
+        {
+          "name": "Reginald's Tower",
+          "url": "https://de.wikipedia.org/w/index.php?search=Reginald%27s%20Tower"
+        },
+        {
+          "name": "Bishop's Palace, Waterford",
+          "url": "https://de.wikipedia.org/w/index.php?search=Bishop%27s%20Palace%2C%20Waterford"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "weekday": "Donnerstag",
+      "date": "2026-07-09",
+      "overnight": "Cork",
+      "coords": [
+        51.8985,
+        -8.4756
+      ],
+      "hotel": "Residence Inn by Marriott Cork – Check24/Karo; Parkplatz angefragt, ca. 20 €/Tag.",
+      "title": "Kilkenny → Rock of Cashel → Cahir → Blarney → Cork",
+      "segments": [
+        [
+          "10:00",
+          "Abfahrt nach Cork mit Zwischenstopps."
+        ],
+        [
+          "11:30",
+          "Rock of Cashel, Ticket gebucht."
+        ],
+        [
+          "ca. 13:00",
+          "Cahir Castle als zusätzlicher Stopp, Ticket/Tagesticket."
+        ],
+        [
+          "15:45–18:00",
+          "Blarney Castle, letzter Einlass 17:00."
+        ],
+        [
+          "Abend",
+          "Weiterfahrt/Ankunft Cork."
+        ]
+      ],
+      "sights": [
+        "Rock of Cashel",
+        "Cahir Castle",
+        "Blarney Castle",
+        "Cork (city)"
+      ],
+      "wiki": [
+        {
+          "name": "Rock of Cashel",
+          "url": "https://de.wikipedia.org/w/index.php?search=Rock%20of%20Cashel"
+        },
+        {
+          "name": "Cahir Castle",
+          "url": "https://de.wikipedia.org/w/index.php?search=Cahir%20Castle"
+        },
+        {
+          "name": "Blarney Castle",
+          "url": "https://de.wikipedia.org/w/index.php?search=Blarney%20Castle"
+        },
+        {
+          "name": "Cork (city)",
+          "url": "https://de.wikipedia.org/w/index.php?search=Cork%20%28city%29"
+        }
+      ],
+      "hotel_price": 577.0
+    },
+    {
+      "day": 4,
+      "weekday": "Freitag",
+      "date": "2026-07-10",
+      "overnight": "Cork",
+      "coords": [
+        51.8985,
+        -8.4756
+      ],
+      "hotel": "Cork zweite Nacht.",
+      "title": "Cork City & Kinsale",
+      "segments": [
+        [
+          "Vormittag",
+          "Cork Innenstadt: St. Anne’s Church, English Market, Innenstadtspaziergang; Cork City Gaol optional."
+        ],
+        [
+          "15:00",
+          "Fahrt nach Kinsale, ca. 45 Min."
+        ],
+        [
+          "Nachmittag",
+          "Charles Fort Militärfestung, Tagesticket ab ca. 14:00, letzter Einlass 17:00."
+        ],
+        [
+          "Abend",
+          "Kinsale/Cork Abendessen."
+        ]
+      ],
+      "sights": [
+        "St Anne's Church, Shandon",
+        "English Market",
+        "Cork City Gaol",
+        "Charles Fort (Ireland)",
+        "Kinsale"
+      ],
+      "wiki": [
+        {
+          "name": "St Anne's Church, Shandon",
+          "url": "https://de.wikipedia.org/w/index.php?search=St%20Anne%27s%20Church%2C%20Shandon"
+        },
+        {
+          "name": "English Market",
+          "url": "https://de.wikipedia.org/w/index.php?search=English%20Market"
+        },
+        {
+          "name": "Cork City Gaol",
+          "url": "https://de.wikipedia.org/w/index.php?search=Cork%20City%20Gaol"
+        },
+        {
+          "name": "Charles Fort (Ireland)",
+          "url": "https://de.wikipedia.org/w/index.php?search=Charles%20Fort%20%28Ireland%29"
+        },
+        {
+          "name": "Kinsale",
+          "url": "https://de.wikipedia.org/w/index.php?search=Kinsale"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "weekday": "Samstag",
+      "date": "2026-07-11",
+      "overnight": "Killarney",
+      "coords": [
+        52.0599,
+        -9.5044
+      ],
+      "hotel": "Old Weir House – Check-in 15–23 Uhr; Check-out bis 12 Uhr.",
+      "title": "Cork → Killarney National Park",
+      "segments": [
+        [
+          "Morgen",
+          "Frühstück, Fahrt nach Killarney."
+        ],
+        [
+          "Mittag",
+          "Ross Castle, Öffnungszeiten 09:30–17:00, letzte Tour 16:55; vor Ort buchbar."
+        ],
+        [
+          "Nachmittag",
+          "Muckross House & Farms optional, Nationalpark-Spaziergang."
+        ],
+        [
+          "Abend",
+          "Check-in und Abendessen."
+        ]
+      ],
+      "sights": [
+        "Ross Castle",
+        "Muckross House",
+        "Killarney National Park"
+      ],
+      "wiki": [
+        {
+          "name": "Ross Castle",
+          "url": "https://de.wikipedia.org/w/index.php?search=Ross%20Castle"
+        },
+        {
+          "name": "Muckross House",
+          "url": "https://de.wikipedia.org/w/index.php?search=Muckross%20House"
+        },
+        {
+          "name": "Killarney National Park",
+          "url": "https://de.wikipedia.org/w/index.php?search=Killarney%20National%20Park"
+        }
+      ],
+      "hotel_price": 448.0
+    },
+    {
+      "day": 6,
+      "weekday": "Sonntag",
+      "date": "2026-07-12",
+      "overnight": "Killarney",
+      "coords": [
+        52.0599,
+        -9.5044
+      ],
+      "hotel": "Killarney zweite Nacht.",
+      "title": "Ring of Kerry – detaillierter Tagesplan",
+      "segments": [
+        [
+          "08:30–21:00",
+          "Ring of Kerry im Uhrzeigersinn. Der Tag ist unten im eigenen Detailbereich vollständig aufgeschlüsselt."
+        ],
+        [
+          "Fokus",
+          "Früh starten, lange Fahrstrecken, Wetterjacke/Schuhe griffbereit, Restaurantstopps einplanen."
+        ]
+      ],
+      "sights": [
+        "Ring of Kerry",
+        "Torc Waterfall",
+        "Ladies View",
+        "Moll's Gap",
+        "Kenmare",
+        "Staigue stone fort",
+        "Derrynane House",
+        "Skellig Ring",
+        "Kerry Cliffs",
+        "Valentia Island",
+        "Rossbeigh"
+      ],
+      "wiki": [
+        {
+          "name": "Ring of Kerry",
+          "url": "https://de.wikipedia.org/w/index.php?search=Ring%20of%20Kerry"
+        },
+        {
+          "name": "Torc Waterfall",
+          "url": "https://de.wikipedia.org/w/index.php?search=Torc%20Waterfall"
+        },
+        {
+          "name": "Ladies View",
+          "url": "https://de.wikipedia.org/w/index.php?search=Ladies%20View"
+        },
+        {
+          "name": "Moll's Gap",
+          "url": "https://de.wikipedia.org/w/index.php?search=Moll%27s%20Gap"
+        },
+        {
+          "name": "Kenmare",
+          "url": "https://de.wikipedia.org/w/index.php?search=Kenmare"
+        },
+        {
+          "name": "Staigue stone fort",
+          "url": "https://de.wikipedia.org/w/index.php?search=Staigue%20stone%20fort"
+        },
+        {
+          "name": "Derrynane House",
+          "url": "https://de.wikipedia.org/w/index.php?search=Derrynane%20House"
+        },
+        {
+          "name": "Skellig Ring",
+          "url": "https://de.wikipedia.org/w/index.php?search=Skellig%20Ring"
+        },
+        {
+          "name": "Kerry Cliffs",
+          "url": "https://de.wikipedia.org/w/index.php?search=Kerry%20Cliffs"
+        },
+        {
+          "name": "Valentia Island",
+          "url": "https://de.wikipedia.org/w/index.php?search=Valentia%20Island"
+        },
+        {
+          "name": "Rossbeigh",
+          "url": "https://de.wikipedia.org/w/index.php?search=Rossbeigh"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "weekday": "Montag",
+      "date": "2026-07-13",
+      "overnight": "Limerick",
+      "coords": [
+        52.6638,
+        -8.6267
+      ],
+      "hotel": "The Bedford Townhouse – Check-in 19–20 Uhr per PIN.",
+      "title": "Killarney → Dingle/Slea Head → Conor Pass → Limerick",
+      "segments": [
+        [
+          "Morgen",
+          "Frühstück, Fahrt nach Dingle ca. 1,5 h."
+        ],
+        [
+          "Tagesroute",
+          "Dingle-Halbinsel mit Slea Head Drive."
+        ],
+        [
+          "Später Nachmittag",
+          "Fahrt nach Limerick über Conor Pass, inkl. Conor Pass Waterfall; ca. 2:40 h."
+        ],
+        [
+          "Abend",
+          "Ankunft Limerick, Prime Time."
+        ]
+      ],
+      "sights": [
+        "Dingle Peninsula",
+        "Slea Head",
+        "Conor Pass",
+        "Limerick"
+      ],
+      "wiki": [
+        {
+          "name": "Dingle Peninsula",
+          "url": "https://de.wikipedia.org/w/index.php?search=Dingle%20Peninsula"
+        },
+        {
+          "name": "Slea Head",
+          "url": "https://de.wikipedia.org/w/index.php?search=Slea%20Head"
+        },
+        {
+          "name": "Conor Pass",
+          "url": "https://de.wikipedia.org/w/index.php?search=Conor%20Pass"
+        },
+        {
+          "name": "Limerick",
+          "url": "https://de.wikipedia.org/w/index.php?search=Limerick"
+        }
+      ],
+      "hotel_price": 189.0
+    },
+    {
+      "day": 8,
+      "weekday": "Dienstag",
+      "date": "2026-07-14",
+      "overnight": "Doolin",
+      "coords": [
+        53.0156,
+        -9.3776
+      ],
+      "hotel": "Atlantic View – Check-in 14–19:30 Uhr.",
+      "title": "Limerick → Doolin → Cliffs of Moher",
+      "segments": [
+        [
+          "Vormittag",
+          "Frühstück/Check-out 10:00–10:30. King John’s Castle, letzter Einlass ca. 13:00."
+        ],
+        [
+          "12:30",
+          "St. Mary’s Cathedral Limerick, Ticket im Wallet/PDF."
+        ],
+        [
+          "Nachmittag",
+          "Fahrt nach Doolin, ca. 1,5 h, Check-in."
+        ],
+        [
+          "16–21 Uhr",
+          "Cliffs of Moher, gebuchtes Zeitfenster."
+        ]
+      ],
+      "sights": [
+        "King John's Castle (Limerick)",
+        "St Mary's Cathedral, Limerick",
+        "Doolin",
+        "Cliffs of Moher"
+      ],
+      "wiki": [
+        {
+          "name": "King John's Castle (Limerick)",
+          "url": "https://de.wikipedia.org/w/index.php?search=King%20John%27s%20Castle%20%28Limerick%29"
+        },
+        {
+          "name": "St Mary's Cathedral, Limerick",
+          "url": "https://de.wikipedia.org/w/index.php?search=St%20Mary%27s%20Cathedral%2C%20Limerick"
+        },
+        {
+          "name": "Doolin",
+          "url": "https://de.wikipedia.org/w/index.php?search=Doolin"
+        },
+        {
+          "name": "Cliffs of Moher",
+          "url": "https://de.wikipedia.org/w/index.php?search=Cliffs%20of%20Moher"
+        }
+      ],
+      "hotel_price": 145.0
+    },
+    {
+      "day": 9,
+      "weekday": "Mittwoch",
+      "date": "2026-07-15",
+      "overnight": "Galway",
+      "coords": [
+        53.2743,
+        -9.0491
+      ],
+      "hotel": "Radisson RED Galway – Booking/Karo; Halbpension; Check-in ab 15 Uhr.",
+      "title": "Cliffs of Moher & Doolin Cave → Galway",
+      "segments": [
+        [
+          "08–11 Uhr",
+          "Cliffs of Moher zweites Zeitfenster, günstiger Frühslot."
+        ],
+        [
+          "12:00",
+          "Doolin Cave, Ticket gebucht."
+        ],
+        [
+          "Mittag",
+          "Fahrt nach Galway ca. 1,5 h."
+        ],
+        [
+          "Nachmittag",
+          "Galway: St. Nicholas’ Church, Latin Quarter, Eyre Square, Spaziergang."
+        ]
+      ],
+      "sights": [
+        "Cliffs of Moher",
+        "Doolin Cave",
+        "Galway",
+        "St Nicholas' Collegiate Church"
+      ],
+      "wiki": [
+        {
+          "name": "Cliffs of Moher",
+          "url": "https://de.wikipedia.org/w/index.php?search=Cliffs%20of%20Moher"
+        },
+        {
+          "name": "Doolin Cave",
+          "url": "https://de.wikipedia.org/w/index.php?search=Doolin%20Cave"
+        },
+        {
+          "name": "Galway",
+          "url": "https://de.wikipedia.org/w/index.php?search=Galway"
+        },
+        {
+          "name": "St Nicholas' Collegiate Church",
+          "url": "https://de.wikipedia.org/w/index.php?search=St%20Nicholas%27%20Collegiate%20Church"
+        }
+      ],
+      "hotel_price": 476.0
+    },
+    {
+      "day": 10,
+      "weekday": "Donnerstag",
+      "date": "2026-07-16",
+      "overnight": "Galway",
+      "coords": [
+        53.2743,
+        -9.0491
+      ],
+      "hotel": "Galway zweite Nacht.",
+      "title": "Connemara, Kylemore Abbey & Sky Road",
+      "segments": [
+        [
+          "09:30",
+          "Abfahrt Hotel. Connemara National Park, Schloss/Abtei-Region ansteuern."
+        ],
+        [
+          "12:20",
+          "Kylemore Abbey, 10–18 Uhr, Ticket gebucht."
+        ],
+        [
+          "ab 15:00",
+          "Weiter nach Clifden, Sky Road, vorbei an Clifden Castle."
+        ],
+        [
+          "Abend",
+          "Rückfahrt/Abendessen Galway."
+        ]
+      ],
+      "sights": [
+        "Connemara National Park",
+        "Kylemore Abbey",
+        "Clifden",
+        "Sky Road, Clifden",
+        "Clifden Castle"
+      ],
+      "wiki": [
+        {
+          "name": "Connemara National Park",
+          "url": "https://de.wikipedia.org/w/index.php?search=Connemara%20National%20Park"
+        },
+        {
+          "name": "Kylemore Abbey",
+          "url": "https://de.wikipedia.org/w/index.php?search=Kylemore%20Abbey"
+        },
+        {
+          "name": "Clifden",
+          "url": "https://de.wikipedia.org/w/index.php?search=Clifden"
+        },
+        {
+          "name": "Sky Road, Clifden",
+          "url": "https://de.wikipedia.org/w/index.php?search=Sky%20Road%2C%20Clifden"
+        },
+        {
+          "name": "Clifden Castle",
+          "url": "https://de.wikipedia.org/w/index.php?search=Clifden%20Castle"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "weekday": "Freitag",
+      "date": "2026-07-17",
+      "overnight": "Dublin",
+      "coords": [
+        53.3498,
+        -6.2603
+      ],
+      "hotel": "Leonardo Dublin Christchurch – Check-in ab 15 Uhr; Check-out bis 11 Uhr.",
+      "title": "Galway → Clonmacnoise → Dublin",
+      "segments": [
+        [
+          "Morgen",
+          "Frühstück und Abfahrt nach Dublin."
+        ],
+        [
+          "Zwischenstopp",
+          "Clonmacnoise, Öffnungszeiten ca. 09:00–17:30."
+        ],
+        [
+          "14:15",
+          "Kilmainham Gaol Führung, gebucht."
+        ],
+        [
+          "Später",
+          "Hotel Check-in, Mietwagenangabe Flughafen Dublin, Essen bei Temple Bar."
+        ]
+      ],
+      "sights": [
+        "Clonmacnoise",
+        "Kilmainham Gaol",
+        "Temple Bar, Dublin",
+        "Dublin"
+      ],
+      "wiki": [
+        {
+          "name": "Clonmacnoise",
+          "url": "https://de.wikipedia.org/w/index.php?search=Clonmacnoise"
+        },
+        {
+          "name": "Kilmainham Gaol",
+          "url": "https://de.wikipedia.org/w/index.php?search=Kilmainham%20Gaol"
+        },
+        {
+          "name": "Temple Bar, Dublin",
+          "url": "https://de.wikipedia.org/w/index.php?search=Temple%20Bar%2C%20Dublin"
+        },
+        {
+          "name": "Dublin",
+          "url": "https://de.wikipedia.org/w/index.php?search=Dublin"
+        }
+      ],
+      "hotel_price": 666.0
+    },
+    {
+      "day": 12,
+      "weekday": "Samstag",
+      "date": "2026-07-18",
+      "overnight": "Dublin",
+      "coords": [
+        53.3498,
+        -6.2603
+      ],
+      "hotel": "Dublin zweite Nacht.",
+      "title": "Dublin Klassiker zu Fuß",
+      "segments": [
+        [
+          "Vormittag",
+          "Frühstück. Dublin Castle nur außen, je nach Einschränkungen/Präsidentschaft."
+        ],
+        [
+          "Tag",
+          "Christ Church/Temple Bar/Innenstadt-Runde, Trinity College/Book of Kells optional, St. Patrick’s Cathedral optional."
+        ],
+        [
+          "Abend",
+          "Dublin Abendprogramm."
+        ]
+      ],
+      "sights": [
+        "Dublin Castle",
+        "Christ Church Cathedral, Dublin",
+        "Trinity College Dublin",
+        "Book of Kells",
+        "St Patrick's Cathedral, Dublin"
+      ],
+      "wiki": [
+        {
+          "name": "Dublin Castle",
+          "url": "https://de.wikipedia.org/w/index.php?search=Dublin%20Castle"
+        },
+        {
+          "name": "Christ Church Cathedral, Dublin",
+          "url": "https://de.wikipedia.org/w/index.php?search=Christ%20Church%20Cathedral%2C%20Dublin"
+        },
+        {
+          "name": "Trinity College Dublin",
+          "url": "https://de.wikipedia.org/w/index.php?search=Trinity%20College%20Dublin"
+        },
+        {
+          "name": "Book of Kells",
+          "url": "https://de.wikipedia.org/w/index.php?search=Book%20of%20Kells"
+        },
+        {
+          "name": "St Patrick's Cathedral, Dublin",
+          "url": "https://de.wikipedia.org/w/index.php?search=St%20Patrick%27s%20Cathedral%2C%20Dublin"
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "weekday": "Sonntag",
+      "date": "2026-07-19",
+      "overnight": "Abflug",
+      "coords": [
+        53.3498,
+        -6.2603
+      ],
+      "hotel": "Check-out, Koffer verstauen.",
+      "title": "Dublin & Rückflug",
+      "segments": [
+        [
+          "Morgen",
+          "Frühstück im Hotel, Check-out, Koffer verstauen."
+        ],
+        [
+          "Vormittag/Mittag",
+          "Christ Church Cathedral/Innenstadt je nach Zeitfenster."
+        ],
+        [
+          "14:32",
+          "Dublin Express Fahrt zum Flughafen."
+        ],
+        [
+          "17:45",
+          "Rückflug."
+        ]
+      ],
+      "sights": [
+        "Christ Church Cathedral, Dublin",
+        "Dublin Airport"
+      ],
+      "wiki": [
+        {
+          "name": "Christ Church Cathedral, Dublin",
+          "url": "https://de.wikipedia.org/w/index.php?search=Christ%20Church%20Cathedral%2C%20Dublin"
+        },
+        {
+          "name": "Dublin Airport",
+          "url": "https://de.wikipedia.org/w/index.php?search=Dublin%20Airport"
+        }
+      ]
+    }
+  ],
+  "ring": [
+    [
+      "08:30",
+      "Start in Killarney",
+      "—",
+      "Abfahrt Richtung Nationalpark."
+    ],
+    [
+      "08:30–08:45",
+      "Fahrtzeit",
+      "15 Min.",
+      "Kurze Fahrt zum Parkplatz des Wasserfalls."
+    ],
+    [
+      "08:45–09:10",
+      "Torc Waterfall",
+      "25 Min.",
+      "Kurzer Fußweg; früh gute Parkplatzchance."
+    ],
+    [
+      "09:10–09:30",
+      "Fahrtzeit",
+      "20 Min.",
+      ""
+    ],
+    [
+      "09:30–09:50",
+      "Ladies View",
+      "20 Min.",
+      "Panoramablick über die Seen von Killarney."
+    ],
+    [
+      "09:50–10:00",
+      "Fahrtzeit",
+      "10 Min.",
+      ""
+    ],
+    [
+      "10:00–10:10",
+      "Moll’s Gap",
+      "10 Min.",
+      "Foto-Stopp, optional Kaffee/Klo bei Avoca."
+    ],
+    [
+      "10:10–10:25",
+      "Fahrtzeit",
+      "15 Min.",
+      ""
+    ],
+    [
+      "10:25–11:00",
+      "Kenmare",
+      "35 Min.",
+      "Spaziergang durch die bunten Straßen."
+    ],
+    [
+      "11:00–11:50",
+      "Fahrtzeit",
+      "50 Min.",
+      "Längerer, kurviger Fahrabschnitt."
+    ],
+    [
+      "11:50–12:20",
+      "Staigue Stone Fort",
+      "30 Min.",
+      "Historisches Steinfort; ca. 1 € bereithalten."
+    ],
+    [
+      "12:20–12:35",
+      "Fahrtzeit",
+      "15 Min.",
+      ""
+    ],
+    [
+      "12:35–13:20",
+      "Mittagessen in Caherdaniel",
+      "45 Min.",
+      "The Blind Piper als Pub-Stopp."
+    ],
+    [
+      "13:20–13:30",
+      "Fahrtzeit",
+      "10 Min.",
+      ""
+    ],
+    [
+      "13:30–14:00",
+      "Derrynane Beach",
+      "30 Min.",
+      "Strandstopp."
+    ],
+    [
+      "14:00–14:10",
+      "Fahrtzeit",
+      "10 Min.",
+      ""
+    ],
+    [
+      "14:10–14:25",
+      "Coomakista Viewpoint",
+      "15 Min.",
+      "Blick über die Atlantikküste."
+    ],
+    [
+      "14:25–14:35",
+      "Fahrtzeit",
+      "10 Min.",
+      ""
+    ],
+    [
+      "14:35–15:05",
+      "Waterville",
+      "30 Min.",
+      "Promenade und Charlie-Chaplin-Statue."
+    ],
+    [
+      "15:05–15:20",
+      "Fahrtzeit",
+      "15 Min.",
+      "Abzweigung auf den Skellig Ring."
+    ],
+    [
+      "15:20–15:40",
+      "Ballinskelligs Beach",
+      "20 Min.",
+      "Strandstopp mit Burgruine am Wasser."
+    ],
+    [
+      "15:40–16:00",
+      "Fahrtzeit",
+      "20 Min.",
+      "Hinauf zum Pass."
+    ],
+    [
+      "16:00–16:10",
+      "Coomanaspig Pass",
+      "10 Min.",
+      "Spektakulärer, windiger Aussichtspunkt."
+    ],
+    [
+      "16:10–16:12",
+      "Fahrtzeit",
+      "2 Min.",
+      "Kurzes Stück weiter."
+    ],
+    [
+      "16:12–17:00",
+      "Kerry Cliffs",
+      "48 Min.",
+      "Ca. 5 € Eintritt; 15 Min. Fußweg bergauf einplanen."
+    ],
+    [
+      "17:00–17:20",
+      "Fahrtzeit",
+      "20 Min.",
+      "Über die Brücke nach Valentia Island."
+    ],
+    [
+      "17:20–18:00",
+      "Geokaun Mountain & Cliffs",
+      "40 Min.",
+      "Aussichtspunkt, per Auto erreichbar; ca. 6 €."
+    ],
+    [
+      "18:00–18:10",
+      "Fahrtzeit",
+      "10 Min.",
+      "Zurück zum Festland."
+    ],
+    [
+      "18:10–18:50",
+      "Abendessen in Portmagee",
+      "40 Min.",
+      "The Moorings als Abendessen-Stopp."
+    ],
+    [
+      "18:50–19:35",
+      "Fahrtzeit",
+      "45 Min.",
+      "Richtung Norden."
+    ],
+    [
+      "19:35–19:55",
+      "Rossbeigh Beach",
+      "20 Min.",
+      "Letzter Strandspaziergang im Abendlicht."
+    ],
+    [
+      "19:55–20:45",
+      "Rückfahrt nach Killarney",
+      "50 Min.",
+      "Zurück zum Hotel."
+    ]
+  ],
+  "route": [
+    {
+      "name": "Kilkenny",
+      "date": "2026-07-07",
+      "coords": [
+        52.6541,
+        -7.2448
+      ],
+      "day": 1
+    },
+    {
+      "name": "Kilkenny",
+      "date": "2026-07-08",
+      "coords": [
+        52.6541,
+        -7.2448
+      ],
+      "day": 2
+    },
+    {
+      "name": "Cork",
+      "date": "2026-07-09",
+      "coords": [
+        51.8985,
+        -8.4756
+      ],
+      "day": 3
+    },
+    {
+      "name": "Cork",
+      "date": "2026-07-10",
+      "coords": [
+        51.8985,
+        -8.4756
+      ],
+      "day": 4
+    },
+    {
+      "name": "Killarney",
+      "date": "2026-07-11",
+      "coords": [
+        52.0599,
+        -9.5044
+      ],
+      "day": 5
+    },
+    {
+      "name": "Killarney",
+      "date": "2026-07-12",
+      "coords": [
+        52.0599,
+        -9.5044
+      ],
+      "day": 6
+    },
+    {
+      "name": "Limerick",
+      "date": "2026-07-13",
+      "coords": [
+        52.6638,
+        -8.6267
+      ],
+      "day": 7
+    },
+    {
+      "name": "Doolin",
+      "date": "2026-07-14",
+      "coords": [
+        53.0156,
+        -9.3776
+      ],
+      "day": 8
+    },
+    {
+      "name": "Galway",
+      "date": "2026-07-15",
+      "coords": [
+        53.2743,
+        -9.0491
+      ],
+      "day": 9
+    },
+    {
+      "name": "Galway",
+      "date": "2026-07-16",
+      "coords": [
+        53.2743,
+        -9.0491
+      ],
+      "day": 10
+    },
+    {
+      "name": "Dublin",
+      "date": "2026-07-17",
+      "coords": [
+        53.3498,
+        -6.2603
+      ],
+      "day": 11
+    },
+    {
+      "name": "Dublin",
+      "date": "2026-07-18",
+      "coords": [
+        53.3498,
+        -6.2603
+      ],
+      "day": 12
+    },
+    {
+      "name": "Dublin/Abflug",
+      "date": "2026-07-19",
+      "coords": [
+        53.3498,
+        -6.2603
+      ],
+      "day": 13
+    }
+  ],
+  "costs": {
+    "hotels_total": 2861.0,
+    "hotels": [
+      {
+        "day": 1,
+        "place": "Kilkenny",
+        "amount": 360.0
+      },
+      {
+        "day": 3,
+        "place": "Cork",
+        "amount": 577.0
+      },
+      {
+        "day": 5,
+        "place": "Killarney",
+        "amount": 448.0
+      },
+      {
+        "day": 7,
+        "place": "Limerick",
+        "amount": 189.0
+      },
+      {
+        "day": 8,
+        "place": "Doolin",
+        "amount": 145.0
+      },
+      {
+        "day": 9,
+        "place": "Galway",
+        "amount": 476.0
+      },
+      {
+        "day": 11,
+        "place": "Dublin",
+        "amount": 666.0
+      }
+    ],
+    "listed_entries": [
+      {
+        "day": 1,
+        "item": "- Eintritt: 8 Euro (mit Führung 12 Euro)",
+        "amount": 8.0
+      },
+      {
+        "day": 2,
+        "item": "- Eintritt: 6,50 Euro (Turm: 6 Euro)",
+        "amount": 6.5
+      },
+      {
+        "day": 2,
+        "item": "- Eintritt: 5 Euro (nur vor Ort)",
+        "amount": 5.0
+      },
+      {
+        "day": 2,
+        "item": "- Reginald's Tower (Öffnungszeiten: letzter Einlass 16.15 Uhr, Eintritt: 5 Euro,",
+        "amount": 5.0
+      },
+      {
+        "day": 2,
+        "item": "- Bishop's Palace (Öffnungszeiten: bis 18 Uhr, Eintritt:10 Euro,",
+        "amount": 10.0
+      },
+      {
+        "day": 3,
+        "item": "- Eintritt: 8 Euro",
+        "amount": 8.0
+      },
+      {
+        "day": 3,
+        "item": "- Eintritt: 5 Euro",
+        "amount": 5.0
+      },
+      {
+        "day": 3,
+        "item": "- Eintritt : 24 Euro",
+        "amount": 24.0
+      },
+      {
+        "day": 4,
+        "item": "- St. Anne's Church (Öffnungszeiten: 10 - 17 Uhr, Eintritt 6 Euro, Aufenthalt: ca. 50 min.)",
+        "amount": 6.0
+      },
+      {
+        "day": 4,
+        "item": "- Saint Fin Cathedral (Öffnungszeiten bis 17 Uhr, Eintritt 8 Euro) nur von außen",
+        "amount": 8.0
+      },
+      {
+        "day": 4,
+        "item": "- Cork City Goal (kostenlose Parkplätze vor Ort, Eintritt 8 Euro Tagesticket)",
+        "amount": 8.0
+      },
+      {
+        "day": 4,
+        "item": "(Öffnungszeiten: 10 - 18 Uhr letzter Einlass 17 Uhr; Eintritt 5 Euro,",
+        "amount": 5.0
+      },
+      {
+        "day": 5,
+        "item": "- Eintritt: 5 Euro",
+        "amount": 5.0
+      },
+      {
+        "day": 5,
+        "item": "- Eintritt: 18 Euro (Haus + Bauernhöfe)",
+        "amount": 18.0
+      },
+      {
+        "day": 8,
+        "item": "- Eintritt: 16,50 Euro",
+        "amount": 16.5
+      },
+      {
+        "day": 8,
+        "item": "- Eintritt 5 Euro",
+        "amount": 5.0
+      },
+      {
+        "day": 9,
+        "item": "- Öffnungszeiten ab 8 Uhr (Zeitfenster 8 - 11 Uhr = 8 Euro p.P.)",
+        "amount": 8.0
+      },
+      {
+        "day": 9,
+        "item": "- Eintritt: 19,50 Euro",
+        "amount": 19.5
+      },
+      {
+        "day": 9,
+        "item": "- Eintritt: 7,50 Euro",
+        "amount": 7.5
+      },
+      {
+        "day": 10,
+        "item": "- Eintritt: 5 Euro (nur vor Ort)",
+        "amount": 5.0
+      },
+      {
+        "day": 10,
+        "item": "- Eintritt 18 Euro  (Tagesticket gebucht)",
+        "amount": 18.0
+      },
+      {
+        "day": 11,
+        "item": "- Eintritt: 8 Euro (nur vor Ort)",
+        "amount": 8.0
+      },
+      {
+        "day": 13,
+        "item": "- Eintritt 12 Euro gebucht Tagesticket",
+        "amount": 12.0
+      }
+    ],
+    "listed_entries_total": 221.0,
+    "note": "Hotelpreise aus Spalte Preis; Eintritte/Parken automatisch aus den Tagesnotizen extrahiert. Heritage-Card/gebuchte Tickets können enthalten sein und sollten manuell geprüft werden."
+  }
+}
