@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Irland Roadtrip 2026</title>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIINfQXk5UxYbPhxFUJEMpIu5j3GFsK6Y=" crossorigin="">
+  <style>
+    :root{
+      --bg:#0b1512; --panel:#12221d; --panel2:#f7f2e8; --text:#f7f2e8; --muted:#a9b8ad;
+      --accent:#3fbf8f; --accent2:#f2c14e; --ink:#17231f; --line:rgba(255,255,255,.12);
+      --shadow:0 18px 45px rgba(0,0,0,.28); --radius:22px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Arial,sans-serif;background:linear-gradient(180deg,#07110e,#10231d 38%,#f7f2e8 38%);color:var(--text)}
+    a{color:inherit}
+    .hero{padding:52px 22px 34px;max-width:1160px;margin:auto}
+    .pill{display:inline-flex;gap:8px;align-items:center;border:1px solid var(--line);border-radius:999px;padding:8px 13px;color:#dce7df;background:rgba(255,255,255,.05);font-size:14px}
+    h1{font-size:clamp(38px,6vw,74px);line-height:.95;margin:18px 0 12px;letter-spacing:-2px}
+    .subtitle{max-width:780px;color:#d9e4dc;font-size:18px;line-height:1.55}
+    .toolbar{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+    button,.btn{border:0;border-radius:999px;padding:11px 16px;background:var(--accent);color:#052218;font-weight:700;cursor:pointer;text-decoration:none}
+    button.secondary,.btn.secondary{background:rgba(255,255,255,.11);color:#fff;border:1px solid var(--line)}
+    main{max-width:1160px;margin:auto;padding:0 22px 60px}
+    .overview{display:grid;grid-template-columns:1.35fr .65fr;gap:18px;align-items:stretch}
+    #map{height:520px;border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;border:1px solid rgba(255,255,255,.18)}
+    .stats{background:rgba(255,255,255,.08);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}
+    .stat{border-bottom:1px solid var(--line);padding:15px 0}.stat:last-child{border-bottom:0}
+    .stat b{display:block;font-size:30px;color:#fff}.stat span{color:var(--muted)}
+    .section-title{color:var(--ink);margin:44px 0 16px;font-size:34px;letter-spacing:-1px}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .card{background:white;color:var(--ink);border-radius:var(--radius);box-shadow:0 10px 28px rgba(20,40,30,.12);overflow:hidden;border:1px solid #e7decf}
+    .card-header{padding:18px;cursor:pointer;min-height:178px;background:linear-gradient(135deg,#fff,#f4ecde)}
+    .meta{display:flex;justify-content:space-between;gap:10px;align-items:center;font-size:13px;color:#587066}
+    .dayno{background:#12382c;color:#fff;border-radius:999px;padding:6px 10px;font-weight:800}
+    .card h3{margin:13px 0 8px;font-size:22px;line-height:1.1}
+    .hotel{font-size:14px;color:#5b675f;line-height:1.35}
+    .weather{margin-top:12px;display:inline-flex;gap:7px;align-items:center;background:#ecf8f2;color:#12412f;border-radius:999px;padding:7px 10px;font-size:13px;font-weight:700}
+    .card-body{display:none;border-top:1px solid #eadfce;padding:18px;background:#fff}
+    .card.open .card-body{display:block}
+    .timeline{display:grid;gap:10px;margin:0 0 16px}
+    .slot{display:grid;grid-template-columns:105px 1fr;gap:12px;border-left:3px solid var(--accent);padding:6px 0 6px 12px}
+    .slot time{font-weight:800;color:#305244}
+    .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+    .links a{font-size:13px;text-decoration:none;border:1px solid #d8ccb9;border-radius:999px;padding:7px 10px;background:#fbf7ef;color:#173c30}
+    .ring-detail{margin-top:16px;background:#10231d;color:#fff;border-radius:18px;padding:16px;overflow:auto}
+    .ring-detail h4{margin:0 0 6px;font-size:19px}
+    .ring-detail p{color:#c7d6cf;margin:0 0 12px}
+    .ring-detail table{width:100%;border-collapse:collapse;background:white;color:var(--ink);border-radius:14px;overflow:hidden;font-size:14px}
+    th,td{text-align:left;padding:12px;border-bottom:1px solid #eadfce;vertical-align:top}
+    th{background:#eaf4ee;color:#173c30;font-size:13px;text-transform:uppercase;letter-spacing:.04em}
+    tr:last-child td{border-bottom:0}
+    .sources{color:#5a665f;font-size:13px;line-height:1.5;margin-top:22px}
+    .editable[contenteditable="true"]{outline:2px dashed rgba(63,191,143,.7);outline-offset:4px;border-radius:10px}
+    .toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#10231d;color:white;border-radius:999px;padding:10px 16px;display:none;box-shadow:var(--shadow)}
+    @media(max-width:920px){.overview{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}#map{height:430px}}
+    @media(max-width:640px){.cards{grid-template-columns:1fr}.slot{grid-template-columns:1fr}.hero{padding-top:34px}#map{height:360px}}
+    @media print{.toolbar,.toast{display:none}body{background:white}.hero{color:#111;background:white}.subtitle,.pill{color:#333}.overview{display:block}#map{height:360px}.cards{grid-template-columns:1fr}.card-body{display:block!important}.card{break-inside:avoid}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="pill">🇮🇪 Roadtrip · 7.–19. Juli 2026 · Dublin → Wild Atlantic Way → Dublin</div>
+    <h1 class="editable" data-edit="title">Irland Reiseplanung</h1>
+    <p class="subtitle editable" data-edit="intro">13 Tage Roadtrip mit Tageskacheln, Wetter je Übernachtungsort, Karte aller Stops und Tag 6 als besonders detailliertem Ring-of-Kerry-Tagesplan.</p>
+    <div class="toolbar">
+      <button id="editBtn">Bearbeiten</button>
+      <button class="secondary" id="saveBtn">Änderungen speichern</button>
+      <button class="secondary" id="resetBtn">Lokale Änderungen zurücksetzen</button>
+      <a class="btn secondary" href="#tag-6">Tag 6: Ring of Kerry</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="overview">
+      <div id="map"></div>
+      <aside class="stats">
+        <div class="stat"><b>13</b><span>Reisetage</span></div>
+        <div class="stat"><b>8</b><span>Hauptorte / Übernachtungs-Stopps</span></div>
+        <div class="stat"><b>32</b><span>Detailpunkte am Ring-of-Kerry-Tag</span></div>
+        <div class="stat"><b>Live</b><span>Wetter per Open‑Meteo, wenn online verfügbar</span></div>
+      </aside>
+    </section>
+
+    <h2 class="section-title">Tagesplanung</h2>
+    <section id="cards" class="cards"></section>
+
+
+    <p class="sources">Datenbasis: Excel-Datei „Reisen.xlsx“, Tabellenblätter „Irland“ und „Ring of Kerry“; der Ring of Kerry ist als Detailplan in Tag 6 integriert. Kartenbasis: OpenStreetMap/Leaflet. Wetter: Open‑Meteo API. Sehenswürdigkeitslinks führen zur deutschsprachigen Wikipedia-Suche, damit auch Sonderzeichen/abweichende Artikelnamen zuverlässig funktionieren.</p>
+  </main>
+  <div class="toast" id="toast">Gespeichert</div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script>
+    let DATA;
+    const $ = sel => document.querySelector(sel);
+    const cards = $('#cards');
+    const toast = $('#toast');
+
+    function deDate(iso){
+      return new Date(iso + 'T12:00:00').toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
+    }
+    function showToast(msg='Gespeichert'){
+      toast.textContent = msg; toast.style.display='block';
+      setTimeout(()=>toast.style.display='none',1700);
+    }
+    async function loadData(){
+      try {
+        const res = await fetch('reise-data.json');
+        DATA = await res.json();
+      } catch(e) {
+        document.body.insertAdjacentHTML('afterbegin','<div style="background:#b91c1c;color:white;padding:10px;text-align:center">reise-data.json konnte nicht geladen werden. Bitte die Datei im gleichen Ordner lassen.</div>');
+      }
+      renderCards(); initMap(); loadWeather();
+      restoreEdits();
+    }
+    function renderCards(){
+      cards.innerHTML = DATA.days.map(d => `
+        <article class="card" id="tag-${d.day}">
+          <div class="card-header" onclick="this.parentElement.classList.toggle('open')">
+            <div class="meta"><span class="dayno">Tag ${d.day}</span><span>${d.weekday}, ${deDate(d.date)}</span></div>
+            <h3 class="editable" data-edit="day-${d.day}-title">${d.title}</h3>
+            <div class="hotel editable" data-edit="day-${d.day}-hotel">${d.overnight} · ${d.hotel || ''}</div>
+            <div class="weather" id="weather-${d.day}">🌦️ Wetter wird geladen …</div>
+          </div>
+          <div class="card-body">
+            <div class="timeline editable" data-edit="day-${d.day}-plan">
+              ${d.segments.map(s=>`<div class="slot"><time>${s[0]}</time><div>${s[1]}</div></div>`).join('')}
+            </div>
+            ${d.day === 6 ? `<div class="ring-detail editable" data-edit="day-6-ring-detail">
+              <h4>Ring of Kerry – detaillierter Tagesablauf</h4>
+              <p>Dieser Abschnitt stammt aus dem Tabellenblatt „Ring of Kerry“ und gehört vollständig zu Tag 6.</p>
+              <table><thead><tr><th>Uhrzeit</th><th>Station / Highlight</th><th>Aufenthalt</th><th>Infos / To‑do</th></tr></thead><tbody>
+                ${DATA.ring.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td><td>${r[3]||''}</td></tr>`).join('')}
+              </tbody></table>
+            </div>` : ''}
+            <strong>Wiki & Infos</strong>
+            <div class="links">${d.wiki.map(w=>`<a target="_blank" rel="noopener" href="${w.url}">${w.name}</a>`).join('')}</div>
+          </div>
+        </article>
+      `).join('');
+      document.querySelector('.card').classList.add('open');
+    }
+    function initMap(){
+      const map = L.map('map',{scrollWheelZoom:false}).setView([52.8,-8.2],7);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19, attribution:'&copy; OpenStreetMap'}).addTo(map);
+      const points = DATA.route.map(r=>[r.coords[0],r.coords[1]]);
+      L.polyline(points,{weight:4,opacity:.85}).addTo(map);
+      DATA.route.forEach(r=>{
+        L.marker([r.coords[0],r.coords[1]]).addTo(map).bindPopup(`<b>Tag ${r.day}: ${r.name}</b><br>${deDate(r.date)}`);
+      });
+      map.fitBounds(points,{padding:[28,28]});
+    }
+    async function loadWeather(){
+      for (const d of DATA.days){
+        const el = document.getElementById(`weather-${d.day}`);
+        try{
+          const [lat,lon] = d.coords;
+          const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Europe%2FDublin&start_date=${d.date}&end_date=${d.date}`;
+          const res = await fetch(url);
+          const j = await res.json();
+          if(!j.daily || !j.daily.time?.length){ el.textContent = '🌦️ Wetter später verfügbar'; continue; }
+          const max = Math.round(j.daily.temperature_2m_max[0]);
+          const min = Math.round(j.daily.temperature_2m_min[0]);
+          const rain = j.daily.precipitation_probability_max[0] ?? 0;
+          el.textContent = `🌦️ ${min}–${max} °C · Regen ${rain}%`;
+        }catch(e){ el.textContent = '🌦️ Wetter offline nicht verfügbar'; }
+      }
+    }
+    function setEditMode(on){
+      document.querySelectorAll('.editable').forEach(el=>el.contentEditable = on ? 'true' : 'false');
+      showToast(on ? 'Bearbeitungsmodus aktiv' : 'Bearbeitungsmodus aus');
+    }
+    function saveEdits(){
+      const edits = {};
+      document.querySelectorAll('.editable').forEach(el=>edits[el.dataset.edit]=el.innerHTML);
+      localStorage.setItem('irland-edits', JSON.stringify(edits));
+      showToast('Änderungen lokal gespeichert');
+    }
+    function restoreEdits(){
+      const raw = localStorage.getItem('irland-edits'); if(!raw) return;
+      const edits = JSON.parse(raw);
+      document.querySelectorAll('.editable').forEach(el=>{ if(edits[el.dataset.edit]) el.innerHTML = edits[el.dataset.edit]; });
+    }
+    $('#editBtn').addEventListener('click',()=>setEditMode(true));
+    $('#saveBtn').addEventListener('click',saveEdits);
+    $('#resetBtn').addEventListener('click',()=>{localStorage.removeItem('irland-edits'); location.reload();});
+    loadData();
+  </script>
+</body>
+</html>
