@@ -1,0 +1,31 @@
+Reihenfolge;Tag;Step;Adresse;Latitude;Longitude;Nächte;Polarsteps-Notiz
+1;1;Dublin Airport;Dublin Airport, Ireland;53.4264;-6.2499;0;Ankunft / Mietwagen übernehmen
+2;1;Dublin;Dublin, Ireland;53.3498;-6.2603;1;Temple Bar, Trinity College, Guinness Storehouse
+3;2;Glendalough;Glendalough, County Wicklow, Ireland;53.01;-6.3275;0;Zwischenstopp Wicklow Mountains
+4;2;Rock of Cashel;Rock of Cashel, Ireland;52.5201;-7.8905;0;Zwischenstopp Richtung Kilkenny
+5;2;Kilkenny;Kilkenny, Ireland;52.6541;-7.2448;1;Castle, Medieval Mile, Abendessen
+6;3;Kinsale;Kinsale, Ireland;51.7059;-8.5222;1;Charles Fort, Hafen, Altstadt
+7;4;Killarney;Killarney, Ireland;52.0599;-9.5044;2;Basis für Nationalpark und Dingle
+8;4;Muckross House;Muckross House, Killarney, Ireland;52.0186;-9.5019;0;Nationalpark-Stop
+9;4;Torc Waterfall;Torc Waterfall, Killarney, Ireland;52.002;-9.5069;0;Kurzer Spaziergang
+10;5;Gap of Dunloe;Gap of Dunloe, Ireland;52.0195;-9.6334;0;Aussicht / Tagesrunde
+11;5;Ladies View;Ladies View, Killarney, Ireland;51.9742;-9.5746;0;Aussichtspunkt
+12;6;Dingle;Dingle, Ireland;52.1409;-10.264;0;Tagesausflug / Lunch
+13;6;Slea Head Drive;Slea Head Drive, Dingle, Ireland;52.1049;-10.4611;0;Panoramaroute
+14;6;Dunquin Pier;Dunquin Pier, County Kerry, Ireland;52.1324;-10.4604;0;Fotostopp
+15;6;Coumeenoole Beach;Coumeenoole Beach, County Kerry, Ireland;52.1078;-10.4622;0;Strand / Fotostopp
+16;6;Connor Pass;Connor Pass, County Kerry, Ireland;52.1808;-10.205;0;Aussicht bei gutem Wetter
+17;6;Doolin;Doolin, Ireland;53.0167;-9.3778;1;Basis Cliffs of Moher
+18;6;Cliffs of Moher;Cliffs of Moher, Ireland;52.9715;-9.4309;0;Sonnenuntergang / Wetter prüfen
+19;7;Galway;Galway, Ireland;53.2707;-9.0568;2;Latin Quarter, Spanish Arch, Pubs
+20;8;Kylemore Abbey;Kylemore Abbey, Connemara, Ireland;53.5619;-9.8881;0;Connemara Tagesrunde
+21;8;Connemara National Park;Connemara National Park, Ireland;53.5485;-9.9482;0;Wandern / Aussicht
+22;9;Benbulben;Benbulben, County Sligo, Ireland;54.3677;-8.4716;0;Fotostopp
+23;9;Sligo;Sligo, Ireland;54.2766;-8.4761;1;Strandhill Beach / Abendessen
+24;10;Belfast;Belfast, Northern Ireland;54.5973;-5.9301;2;Titanic Quarter, Cathedral Quarter
+25;10;Titanic Belfast;Titanic Belfast, Belfast;54.6082;-5.9097;0;Museum / Quarter
+26;11;Dunluce Castle;Dunluce Castle, Northern Ireland;55.2108;-6.5797;0;Causeway Coast Stop
+27;11;Giant's Causeway;Giant's Causeway, Northern Ireland;55.2408;-6.5116;0;Hauptstopp Causeway Coast
+28;11;Carrick-a-Rede Rope Bridge;Carrick-a-Rede Rope Bridge, Northern Ireland;55.2406;-6.3319;0;Nur bei gutem Wetter / buchen prüfen
+29;12;Dublin;Dublin, Ireland;53.3498;-6.2603;1;Rückfahrt, letzter Abend
+30;13;Dublin Airport;Dublin Airport, Ireland;53.4264;-6.2499;0;Mietwagen abgeben / Abflug
