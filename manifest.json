@@ -1,0 +1,16 @@
+{
+  "name": "Irland Roadtrip 2026",
+  "short_name": "Irland 2026",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#08110e",
+  "theme_color": "#0d7a4f",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
